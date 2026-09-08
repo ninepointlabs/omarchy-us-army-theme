@@ -44,6 +44,9 @@ magick assets/arcom.png -alpha set -fuzz 10% -fill none \
 rsvg-convert -h 58 -f png -o build/v.png assets/vdevice.svg
 magick build/arcom.png build/v.png -gravity North -geometry +0+150 -composite build/arcom-v.png
 shadow build/arcom-v.png build/arcom-v-s.png
+# Sergeant (E-5) chevrons.
+rsvg-convert -h 600 -f png -o build/sgt.png assets/sgt.svg
+shadow build/sgt.png build/sgt-s.png
 
 # Layout: caption, CIB, the five patches, the Purple Heart.
 FONT="JetBrainsMono-NF-Bold"
@@ -93,6 +96,21 @@ place build/wall3.png build/ph-s.png $((W / 2 + 230)) 1730
 magick build/wall3.png -gravity South -font "$FONT" -pointsize 36 -kerning 14 -fill "#8A9478" \
   -annotate +0+60 "2ND ID  ·  3RD ID  ·  1ST CAV  ·  24TH ID  ·  35TH ID  ·  ARCOM WITH V  ·  PURPLE HEART  ·  CIB" build/wall3.png
 magick build/wall3.png -quality 95 backgrounds/decorations.png
+fi
+
+# Fourth wallpaper: everything, with Sergeant (E-5) chevrons between the medals.
+if want sergeant.png; then
+cp build/ground.png build/wall4.png
+magick build/wall4.png -gravity North -font "$FONT" -pointsize 72 -kerning 30 -fill "$GOLD" \
+  -annotate +0+250 "UNITED STATES ARMY" build/wall4.png
+place build/wall4.png build/cib-s.png $((W / 2)) 560
+for i in 0 1 2 3 4; do place build/wall4.png "build/${keys[$i]}-s.png" "${xs[$i]}" $row_y; done
+place build/wall4.png build/arcom-v-s.png $((W / 2 - 560)) 1730
+place build/wall4.png build/sgt-s.png $((W / 2)) 1730
+place build/wall4.png build/ph-s.png $((W / 2 + 560)) 1730
+magick build/wall4.png -gravity South -font "$FONT" -pointsize 36 -kerning 14 -fill "#8A9478" \
+  -annotate +0+60 "2ND ID  ·  3RD ID  ·  1ST CAV  ·  24TH ID  ·  35TH ID  ·  ARCOM WITH V  ·  SERGEANT  ·  PURPLE HEART  ·  CIB" build/wall4.png
+magick build/wall4.png -quality 95 backgrounds/sergeant.png
 fi
 
 echo "built: $(ls backgrounds)"

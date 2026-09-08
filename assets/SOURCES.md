@@ -9,3 +9,4 @@
 - `purpleheart.png`: File:Purple Heart Medal.png — Public domain — https://commons.wikimedia.org/wiki/File:Purple_Heart_Medal.png
 - `arcom.png`: File:ArmyCommMed.png — Public domain — https://commons.wikimedia.org/wiki/File:ArmyCommMed.png
 - `vdevice.svg`: File:"V" device, brass.svg — Public domain — https://commons.wikimedia.org/wiki/File:%22V%22_device,_brass.svg
+- `sgt.svg`: File:Army-USA-OR-05-2015.svg (Sergeant, E-5) — Public domain — https://commons.wikimedia.org/wiki/File:Army-USA-OR-05-2015.svg

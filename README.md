@@ -5,7 +5,7 @@ insignia: the 2nd Infantry Division (Indianhead), 3rd Infantry Division
 (Marne), 1st Cavalry Division (First Team), 24th Infantry Division (Taro
 Leaf) and 35th Infantry Division (Santa Fe) shoulder sleeve insignia, the
 Combat Infantryman Badge, the Purple Heart, and (on the third wallpaper) the
-Army Commendation Medal with "V" device.
+Army Commendation Medal with "V" device and Sergeant (E-5) chevrons.
 
 ![Divisions wallpaper](backgrounds/divisions.png)
 
@@ -24,8 +24,9 @@ Or from a checkout: `./install.sh --apply`.
 - `combat-infantryman.png`: just the CIB over the Purple Heart, for a quieter desk.
 - `decorations.png`: the first wallpaper plus the Army Commendation Medal with
   "V" device beside the Purple Heart.
+- `sergeant.png`: the same, with Sergeant (E-5) chevrons between the medals.
 
-All three are 3840x2160. Cycle with `omarchy theme bg next`.
+All four are 3840x2160. Cycle with `omarchy theme bg next`.
 
 ## Palette
 

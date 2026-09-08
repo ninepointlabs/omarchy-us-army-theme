@@ -1,0 +1,36 @@
+mode = "dark"
+
+# Army gold on olive drab. The accent is the gold of the branch insignia,
+# the greens come from the OD ground of the wallpaper, and the rest of the
+# palette is lifted from the patches: Marne blue, Taro Leaf red and green,
+# First Team yellow, Purple Heart purple.
+
+accent = "#C9A227"
+selection = "#3D4A32"
+muted = "#6F7A62"
+
+background = "#1E2419"
+dark_background = "#161B12"
+darker_background = "#0F130C"
+lighter_background = "#2A3323"
+
+foreground = "#EAE4D3"
+dark_foreground = "#8F9A80"
+light_foreground = "#D5CDB6"
+bright_foreground = "#F7F2E4"
+
+red = "#C8312F"
+yellow = "#D9B33A"
+orange = "#D98B2E"
+green = "#6E9E4F"
+cyan = "#5FA8A0"
+blue = "#3F63C5"
+magenta = "#8B5CC8"
+brown = "#8A6A3E"
+
+bright_red = "#E04E48"
+bright_yellow = "#F0CC52"
+bright_green = "#8CBF68"
+bright_cyan = "#7CC4BB"
+bright_blue = "#6484DA"
+bright_magenta = "#A87BE0"

@@ -7,3 +7,5 @@
 - `35id.svg`: File:35th Infantry Division SSI.svg — Public domain — https://commons.wikimedia.org/wiki/File:35th_Infantry_Division_SSI.svg
 - `cib.svg`: File:Combat Infantry Badge.svg — Public domain — https://commons.wikimedia.org/wiki/File:Combat_Infantry_Badge.svg
 - `purpleheart.png`: File:Purple Heart Medal.png — Public domain — https://commons.wikimedia.org/wiki/File:Purple_Heart_Medal.png
+- `arcom.png`: File:ArmyCommMed.png — Public domain — https://commons.wikimedia.org/wiki/File:ArmyCommMed.png
+- `vdevice.svg`: File:"V" device, brass.svg — Public domain — https://commons.wikimedia.org/wiki/File:%22V%22_device,_brass.svg

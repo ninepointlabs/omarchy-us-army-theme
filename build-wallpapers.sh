@@ -108,7 +108,7 @@ for i in 0 1 2 3 4; do place build/wall4.png "build/${keys[$i]}-s.png" "${xs[$i]
 place build/wall4.png build/arcom-v-s.png $((W / 2 - 560)) 1730
 place build/wall4.png build/sgt-s.png $((W / 2)) 1730
 place build/wall4.png build/ph-s.png $((W / 2 + 560)) 1730
-magick build/wall4.png -gravity South -font "$FONT" -pointsize 36 -kerning 14 -fill "#8A9478" \
+magick build/wall4.png -gravity South -font "$FONT" -pointsize 30 -kerning 8 -fill "#8A9478" \
   -annotate +0+60 "2ND ID  ·  3RD ID  ·  1ST CAV  ·  24TH ID  ·  35TH ID  ·  ARCOM WITH V  ·  SERGEANT  ·  PURPLE HEART  ·  CIB" build/wall4.png
 magick build/wall4.png -quality 95 backgrounds/sergeant.png
 fi

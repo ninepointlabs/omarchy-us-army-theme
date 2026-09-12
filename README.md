@@ -12,7 +12,7 @@ Army Commendation Medal with "V" device and Sergeant (E-5) chevrons.
 ## Install
 
 ```bash
-omarchy theme install https://github.com/ninepointlabs/omarchy-theme-us-army
+omarchy theme install https://github.com/ninepointlabs/omarchy-us-army-theme
 omarchy theme set us-army
 ```
 
